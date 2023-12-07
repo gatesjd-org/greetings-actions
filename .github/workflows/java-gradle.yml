@@ -19,7 +19,8 @@ permissions:
 jobs:
   build:
 
-    runs-on: [self-hosted, linux, codebuild]
+    # runs-on: [self-hosted, linux, codebuild]
+    runs-on: self-hosted
     # runs-on: ubuntu-latest
 
     steps:
